@@ -1,1 +1,13 @@
-add 1
+05-25 03:58:47.165 7227-7307/com.youdao.hardware.egg E/AndroidRuntime: FATAL EXCEPTION: CameraViewWorker
+    Process: com.youdao.hardware.egg, PID: 7227
+    java.lang.NullPointerException: Attempt to invoke virtual method 'void android.hardware.Camera.reconnect()' on a null object reference
+        at com.wonderkiln.camerakit.Camera1.setupPreview(Camera1.java:696)
+        at com.wonderkiln.camerakit.Camera1.start(Camera1.java:127)
+        at com.wonderkiln.camerakit.CameraView$2.run(CameraView.java:267)
+        at android.os.Handler.handleCallback(Handler.java:751)
+        at android.os.Handler.dispatchMessage(Handler.java:95)
+        at android.os.Looper.loop(Looper.java:154)
+        at android.os.HandlerThread.run(HandlerThread.java:61)
+	
+
+	add
